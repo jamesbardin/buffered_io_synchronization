@@ -1,14 +1,7 @@
-CS 61 Problem Set 4
-===================
-
-**Fill out both this file and `AUTHORS.md` before submitting.** We grade
-anonymously, so put all personally identifying information, including
-collaborators, in `AUTHORS.md`.
-
-Grading notes (if any)
-----------------------
+My previous project, buffered_io, which worked for for single-threaded processes, now updated for multi-threaded processes.
 
 
+Contains the IO61 library, which is a single-slot cache—that you will modify to:
 
-Extra credit attempted (if any)
--------------------------------
+Add support for file range locks, or “flocks” for short. A flock allows a thread to lock a specific range of bytes within a file.
+Implement thread safety for all operations.
